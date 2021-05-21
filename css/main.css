@@ -59,10 +59,29 @@ span {
     .mainContainer {
         min-width: 40%;
     }
+
 }
 
 @media (max-width: 1000px) {
     .mainContainer {
         min-width: 90%;
+    }
+    .screenContainer {
+        background: none;
+    }
+    .buttonContainer {
+        background: none;
+        gap: 1.1em;
+
+    }
+    span {
+        color: white;
+    }
+    .buttonContainer div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.6em;
+        border-radius: 100%;
     }
 }
