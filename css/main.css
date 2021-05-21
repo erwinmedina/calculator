@@ -71,17 +71,23 @@ span {
     }
     .buttonContainer {
         background: none;
-        gap: 1.1em;
+        padding: 15px;
+
+        /* gap: 1.1em; */
 
     }
     span {
         color: white;
     }
     .buttonContainer div {
+        margin: auto;
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 2.6em;
-        border-radius: 100%;
+        vertical-align: middle;
+        height: 60px;
+        width: 60px;
+        font-size: 2em;
+        border-radius: 50%;
     }
 }
