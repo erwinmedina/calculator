@@ -55,6 +55,12 @@ span {
     font-size: 30px;
 }
 
+@media (max-width: 1300px) {
+    .mainContainer {
+        min-width: 40%;
+    }
+}
+
 @media (max-width: 1000px) {
     .mainContainer {
         min-width: 90%;
