@@ -1,0 +1,62 @@
+body {
+    height: 100vh;
+    background: linear-gradient(90deg, #0B486B, #F56217);
+
+}
+
+.mainContainer {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.screenContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    background: rgba(255,255,255, .5);
+    padding: 30px 30px 50px 30px;
+}
+
+span {
+    visibility: hidden;
+    padding: 0 15px 0 0;
+    font-size: 14px;
+    width: 100%;
+    text-align: right;
+    color: rgba(0,0,0,.5);
+}
+
+.screen {
+    padding: 5px 15px 5px 5px;
+    text-align: right;
+    border-radius: 20px;
+    background: white;
+    font-size: 34px;
+}
+
+.buttonContainer {
+    width: 100%;
+    background: rgba(255,255,255,.8);
+    padding: 30px;
+    border-radius: 0 0 20px 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.buttonContainer div {
+    font-size: 30px;
+}
+
+@media (max-width: 1000px) {
+    .mainContainer {
+        min-width: 90%;
+    }
+}
