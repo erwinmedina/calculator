@@ -1,7 +1,6 @@
 body {
     height: 100vh;
     background: linear-gradient(90deg, #0B486B, #F56217);
-
 }
 
 .mainContainer {
@@ -21,7 +20,9 @@ body {
     width: 100%;
     border-radius: 20px 20px 0 0;
     background: rgba(255,255,255, .5);
+    box-shadow: 5px -10px 5px 5px rgba(0,0,0,.5);
     padding: 30px 30px 50px 30px;
+    z-index: 2;
 }
 
 span {
@@ -35,6 +36,7 @@ span {
 
 .screen {
     padding: 5px 15px 5px 5px;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,.5);
     text-align: right;
     border-radius: 20px;
     background: white;
@@ -44,6 +46,8 @@ span {
 .buttonContainer {
     width: 100%;
     background: rgba(255,255,255,.8);
+    box-shadow: 5px -2px 5px 5px rgba(0,0,0,.5);
+
     padding: 30px;
     border-radius: 0 0 20px 20px;
     display: grid;
@@ -53,6 +57,7 @@ span {
 
 .buttonContainer div {
     font-size: 30px;
+    box-shadow: 2px 2px 1px 1px rgba(0,0,0,.5);
 }
 
 @media (max-width: 1300px) {
@@ -65,12 +70,13 @@ span {
 @media (max-width: 1000px) {
     .mainContainer {
         min-width: 90%;
+        padding: 0;
     }
     .screenContainer {
-        background: none;
+        /* background: none; */
     }
     .buttonContainer {
-        background: none;
+        /* background: none; */
         padding: 15px;
 
         /* gap: 1.1em; */
@@ -85,9 +91,9 @@ span {
         justify-content: center;
         align-items: center;
         vertical-align: middle;
-        height: 60px;
-        width: 60px;
-        font-size: 2em;
-        border-radius: 50%;
+        height: 2em;
+        width: 90%;
+        /* font-size: 2em;
+        border-radius: 50%; */
     }
 }
