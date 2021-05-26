@@ -93,6 +93,10 @@ function handleOperation(buttonIndex) {
     }
 }
 
+function handleSum(x,y) {
+    return x+y;
+}
+
 function handleComputation(buttonIndex) {
     if (calculation.first === '' || calculation.second === '') return;
     if (buttonIndex === '=') {
